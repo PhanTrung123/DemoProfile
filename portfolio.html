@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Cá Nhân</title>
+    <link rel="stylesheet" href="./assests/style.css" />
+    <link rel="stylesheet" href="./assests/media.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="dekstop-nav">
+      <div class="logo">My Profile Page</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Giới thiệu</a></li>
+          <li><a href="#experience">Kinh nghiệm</a></li>
+          <li><a href="#project">Dự án</a></li>
+          <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="info-nav">
+      <div class="logo">Trung Phan</div>
+      <div class="info-menu">
+        <div class="info-icon" onclick="loggerMenu()">
+          <!-- span: dấu icon 3 gạch -->
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="loggerMenu()">Giới thiệu</a></li>
+          <li><a href="#experience" onclick="loggerMenu()">Kinh nghiệm</a></li>
+          <li><a href="#project" onclick="loggerMenu()">Dự án</a></li>
+          <li><a href="#contact" onclick="loggerMenu()">Liên hệ</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assests/img/profile-pic.jpg" alt="Picture-me" />
+      </div>
+      <div class="section__text">
+        <p class="section__text-p1">Xin Chào, Tên Tôi Là</p>
+        <h1 class="title">Trung</h1>
+        <p class="section__text-p2">Fontend Developer</p>
+        <div class="btn-container">
+          <button class="button btn-color-1" onclick="window.open()">
+            Tải Hồ Sơ
+          </button>
+          <button
+            class="button btn-color-2"
+            onclick="location.href = './#contact'"
+          >
+            Giới Thiệu Bản Thân
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assests/img/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href ='https://www.linkedin.com/in/trung-phan-249a1a294/'"
+          />
+          <img
+            src="./assests/img/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href ='https://www.linkedin.com/in/trung-phan-249a1a294/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text-p1">Tìm hiểu thêm</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container-2">
+          <img
+            src="./assests/img/about-me-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assests/img/experience.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <h3>Kinh Nghiệm</h3>
+              <p>
+                1+ năm <br />
+                Frontend Development
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assests/img/education.png"
+                alt="education icon"
+                class="icon"
+              />
+              <h3>Học Tập</h3>
+              <p>
+                Đại học Duy Tân <br />
+                Ngành Công Nghệ Phần Mềm (CMU)
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Nền tảng của ngành Công nghệ phần mềm gồm 3 mảng chính: thứ nhất
+              là khối kiến thức toán học về cấu trúc dữ liệu, mô hình tính toán.
+              Thứ hai là khối kiến thức công nghệ về kiến trúc, quy trình công
+              nghệ, các chi phí và đánh đổi, các chuẩn, chất lượng và bảo trì.
+              Thứ bà là môi trường xã hội nơi những hoạt động công nghệ đó diễn
+              ra, bao gồm quy trình tạo lập và phát triển nhóm, các tạo tác,
+              chính sách, thị trường và các tác động kinh doanh và kinh tế.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="./assests/img/arrow.png" alt="arrow icon" class="icon arrow" />
+    </section>
+    <section id="experience">
+      <p class="section__text-p1">Khám Phá</p>
+      <h1 class="title">Kinh Nghiệm</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Developer</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assests/img/checkmark.png"
+                  alt="checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Có Kinh Nghiệm</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/img/checkmark.png"
+                  alt="checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Có Kinh Nghiệm</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/img/checkmark.png"
+                  alt="checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Cơ Bản</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/img/checkmark.png"
+                  alt="checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Đang Tìm Hiểu</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/img/checkmark.png"
+                  alt="checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>??????</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/img/checkmark.png"
+                  alt="checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>??????</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Developer</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assests/img/checkmark.png"
+                  alt="checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Đang Tìm Hiểu</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/img/checkmark.png"
+                  alt="checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Đang Tìm Hiểu</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/img/checkmark.png"
+                  alt="checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                  <p>Đang Tìm Hiểu</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/img/checkmark.png"
+                  alt="checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Đang Tìm Hiểu</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/img/checkmark.png"
+                  alt="checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Terminal & Ubuntu</h3>
+                  <p>??????</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests/img/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href = './#project' "
+      />
+    </section>
+    <section id="project">
+      <p class="section__text-p1">Các Dự Án Gần Đây</p>
+      <h1 class="title">Dự Án</h1>
+      <div class="project-detalis-container">
+        <div class="about-container-project">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assests/img/shoppe.webp"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-sub-title project-title">Demo Shoppe</h2>
+            <div class="btn-container">
+              <button
+                class="button btn-color-2 project-btn"
+                onclick="location.href = 'https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="button btn-color-2 project-btn"
+                onclick="location.href = 'http://127.0.0.1:5500/shop.html'"
+              >
+                Chạy Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assests/img/shoppe.webp"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-sub-title project-title">Demo Shoppe</h2>
+            <div class="btn-container">
+              <button
+                class="button btn-color-2 project-btn"
+                onclick="location.href = 'https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="button btn-color-2 project-btn"
+                onclick="location.href = 'http://127.0.0.1:5500/shop.html'"
+              >
+                Chạy Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assests/img/w3school.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-sub-title project-title">Demo web w3school</h2>
+            <div class="btn-container">
+              <button
+                class="button btn-color-2 project-btn"
+                onclick="location.href = 'https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="button btn-color-2 project-btn"
+                onclick="location.href = 'http://127.0.0.1:5500/shop.html'"
+              >
+                Chạy Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests/img/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href = './#project' "
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text-p1">Liên Hệ</p>
+      <h1 class="title">Liên Hệ Với Tôi</h1>
+      <div class="contact-info-container">
+        <div class="contact-info">
+          <i class="bx bxl-gmail"></i>
+          <p>
+            <a href="phanquangtrung30042004@gmail.com"
+              >phanquangtrung30042004@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info">
+          <i class="bx bxs-phone"></i>
+          <p>
+            <a href="">0708110429</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-conatiner">
+          <ul class="nav-links">
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#experience">Kinh nghiệm</a></li>
+            <li><a href="#project">Dự án</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>
+        Coppyright <i class="bx bx-copyright"></i> 2023 Trung Phan. All Rights
+        Reserved
+      </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
