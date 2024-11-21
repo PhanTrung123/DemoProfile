@@ -1,0 +1,46 @@
+{
+  "folders": [
+    {
+      "name": "website",
+      "path": "../../website"
+    },
+    {
+      "name": "demo_FlexBox",
+      "path": "../../demo_FlexBox"
+    },
+    {
+      "name": "demo_BEM",
+      "path": "../../demo_BEM"
+    },
+    {
+      "path": "../../Shop"
+    },
+    {
+      "path": "../../JavaScrip"
+    },
+    {
+      "path": "../../webHomework"
+    },
+    {
+      "path": "../../weather forecast"
+    },
+    {
+      "path": "../../JS"
+    },
+    {
+      "path": "../../json_server"
+    },
+    {
+      "path": "../../Js ES6"
+    },
+    {
+      "path": "../../project JS"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "project JS"
+  }
+}
